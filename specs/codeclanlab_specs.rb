@@ -63,6 +63,13 @@ def test_add_player
   assert_equal("Ryan Giggs", team.players[0])
 end
 
+def test_check_array_for_player
+  team = Team.new("Ross FC", [], "Manny")
+  team.add_player("Ryan Giggs")
+  assert_equal("Ryan Giggs", team.players[0])
+
+end
+
 
 
 end

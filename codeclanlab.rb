@@ -61,4 +61,8 @@ class Team
   def add_player(name)
     @players = [] << name
   end
+
+  def check_array_for_player(name)
+    return name if @players.include?(name)
+  end
 end
