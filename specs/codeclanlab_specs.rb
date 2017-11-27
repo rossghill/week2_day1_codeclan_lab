@@ -67,9 +67,18 @@ def test_check_array_for_player
   team = Team.new("Ross FC", [], "Manny")
   team.add_player("Ryan Giggs")
   assert_equal("Ryan Giggs", team.players[0])
-
 end
 
-
+# def test_check_for_win_loss__win
+#   team = Team.new("Ross FC", [], "Manny")
+#   team.check_for_win_loss("win")
+#   assert_equal("win", team.check_for_win_loss)
+# end
+#
+# def test_check_for_win_loss__loss
+#   team = Team.new("Ross FC", [], "Manny")
+#   team.check_for_win_loss("loss")
+#   assert_equal("loss", team.check_for_win_loss)
+# end
 
 end

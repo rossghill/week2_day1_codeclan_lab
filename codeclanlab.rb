@@ -40,6 +40,7 @@ class Team
     @team_name = team_name
     @players = []
     @coach = coach
+    # @points = 0
   end
 
   # def team_name
@@ -62,7 +63,14 @@ class Team
     @players = [] << name
   end
 
-  def check_array_for_player(name)
-    return name if @players.include?(name)
-  end
+  # def check_array_for_player(name)
+  #   return name if @players.include?(name)
+  # end
+  #
+  # def check_for_win_loss(result)
+  #   if result == "win"
+  #     points += 1
+  #     return "win"
+  #   else
+  #     return "loss"
 end
